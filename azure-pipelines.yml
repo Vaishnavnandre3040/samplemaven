@@ -13,7 +13,7 @@ steps:
 
 - task: MavenAuthenticate@0
   inputs:
-    artifactsFeeds: 'first-feed'
+    artifactsFeeds: 'First-feed'
 
 - task: Maven@4
   inputs:
