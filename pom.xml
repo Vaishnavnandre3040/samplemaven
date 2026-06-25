@@ -87,14 +87,18 @@
       </plugins>
     </pluginManagement>
   </build>
-  <repository>
-  <id>First_feed</id>
-  <url>https://pkgs.dev.azure.com/vaishnav3040/Devops/_packaging/First_feed/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-</repository>
+  <distributionManagement>
+    <repository>
+        <id>First_feed</id>
+        <url>https://pkgs.dev.azure.com/vaishnav3040/Devops/_packaging/First_feed/maven/v1</url>
+        <releases>
+            <enabled>true</enabled>
+        </releases>
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
+    </repository>
+</distributionManagement>
+  
+  
 </project>
